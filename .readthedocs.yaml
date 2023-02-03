@@ -10,5 +10,6 @@ sphinx:
   
 python:
   # Install our python package before building the docs
-  - method: pip
-    path: .
+  install:
+    - method: pip
+      path: .
